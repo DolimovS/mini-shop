@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #000000; */
+}
+
+:root{
+    --Bgcolor:#FFFFFF;
+    /* --Bgcolor:#000000; */
+    --inputcolor:#F3F5F7;
+    --searchcolor:#919EAB;
+    --textcolor:#637381;
+    --iconscolor:#919EAB;
+      --main-bg: #ffffff;       
+  --hover-bg: #f2f2f2;         
+  --primary-color: #ff9900;     
+  --text-color: #333333;        
+  --subtext-color: #777777;
+  --sarlavhacolor:#212B36;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,16 @@
+.container{
+    margin-right: 28px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    /* width: 100%; */
+}
+.rightsection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 28px;
+}

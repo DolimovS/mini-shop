@@ -1,0 +1,171 @@
+
+
+.allproduct{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+
+
+
+.allprofuct_sarlavha{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.allprofuct_sarlavha p{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: var(--text-color);
+}
+
+.allprofuct_sarlavha h1{
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: calc(--sarlavhacolor);
+
+}
+
+.allproduct_catogoriya{
+    display: flex;
+    gap: 28px;
+
+}
+.catogoriya_item{
+        padding: 6px 12px;
+    border-radius: 20px;
+    background-color: var(--inputcolor);
+    color: var(--searchcolor);
+    cursor: pointer;
+    /* background-color: black; */
+    transition: 0.3s;
+}
+
+.catogoriya_item:hover{
+    background-color: #212B36;
+    color:#919EAB ;
+}
+
+.allproduct_items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+.allproduct_item{
+    width: 356px;
+    height: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.cards_img{
+    width: 356px;
+    height: 236px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.cards_img:hover{
+    background-color: #919EAB3D;
+}
+.cards_img img{
+    width: 150px;
+    height: 150px;
+}
+
+.cards_info{
+    display: flex;
+    gap: 16px;
+}
+
+.cards_info img{
+    border-radius: 50%;
+}
+
+.cards_top h3{
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+color: var(--sarlavhacolor);
+}
+
+.cards_top p{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+color: var(--text-color);
+}
+.cards_price{
+    display: flex;
+    gap: 8px;
+}
+.narxi{
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+
+    color:#FFC831 ;
+}
+.esliNarxi{
+    color: #919EAB;
+    text-decoration: line-through;
+}
+
+.cards_sotilgan{
+    display: flex;
+    gap: 16px;
+}
+
+
+.cards_info_text{
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* border:1px solid red; */
+}
+
+.cards_bottom{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: end;
+    
+}
+.cards_savat{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--inputcolor);
+}
+.card_savat{
+    color: var(--text-color);
+}

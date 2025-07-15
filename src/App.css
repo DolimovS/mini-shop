@@ -1,5 +1,6 @@
 .container{
-    margin-right: 28px;
+    padding-right: 28px;
+    background-color: var(--Bgcolor);
 }
 
 main{

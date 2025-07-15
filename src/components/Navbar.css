@@ -4,7 +4,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 16px 24px;
-    background-color: var(--Bgcolor);
+    background-color: var(--navcolor);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     /* border: 1px solid red; */
@@ -49,6 +49,11 @@ nav {
     position: absolute;
     top: 24%;
     right: 10px;
+}
+
+.lightMode{
+        font-size: 25px;
+        color: #FFC831;
 }
 
 /* nav_right */

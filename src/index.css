@@ -12,6 +12,7 @@
 
 :root{
     --Bgcolor:#FFFFFF;
+    --navcolor:#FFFFFF;
     /* --Bgcolor:#000000; */
     --inputcolor:#F3F5F7;
     --searchcolor:#919EAB;
@@ -23,6 +24,7 @@
   --text-color: #333333;        
   --subtext-color: #777777;
   --sarlavhacolor:#212B36;
+  --cardtext:#637381;
 }
 
 a{
@@ -31,4 +33,15 @@ a{
 
 li{
     list-style: none;
+}
+
+.dark-theme {
+  --Bgcolor: #15141B;
+    --navcolor:#100F14;
+--inputcolor:#1F1E24;
+--main-bg:  #191922; 
+--hover-bg: #201E2C;
+--text-color: #C4CDD5;
+--sarlavhacolor:#FFFFFF;
+ --cardtext:#919EAB;
 }

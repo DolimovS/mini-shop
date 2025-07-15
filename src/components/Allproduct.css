@@ -31,7 +31,7 @@ font-style: SemiBold;
 font-size: 18px;
 line-height: 24px;
 letter-spacing: 0%;
-color: calc(--sarlavhacolor);
+color: var(--sarlavhacolor);
 
 }
 
@@ -49,9 +49,11 @@ color: calc(--sarlavhacolor);
     /* background-color: black; */
     transition: 0.3s;
 }
-
+.catogoriya_item p{
+    color: var(--cardtext);
+}
 .catogoriya_item:hover{
-    background-color: #212B36;
+    background-color: var(--sarlavhacolor);
     color:#919EAB ;
 }
 
@@ -76,13 +78,45 @@ color: calc(--sarlavhacolor);
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cards_img img{
+    width: 150px;
+    height: 150px;
+}
+.img_icons {
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease, 
+    transform 0.4s ease;
+    transform: translateX(20px);
+}
+
+.cards_img:hover .img_icons {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
 }
 .cards_img:hover{
     background-color: #919EAB3D;
 }
-.cards_img img{
-    width: 150px;
-    height: 150px;
+
+.cards_love,
+.cards_malumot{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    color: #637381; 
+    cursor: pointer;
 }
 
 .cards_info{
@@ -110,7 +144,6 @@ color: var(--sarlavhacolor);
 font-weight: 400;
 font-style: Regular;
 font-size: 14px;
-leading-trim: NONE;
 line-height: 20px;
 letter-spacing: 0%;
 color: var(--text-color);
@@ -137,6 +170,7 @@ letter-spacing: 0%;
 .cards_sotilgan{
     display: flex;
     gap: 16px;
+    color:var(--cardtext) ;
 }
 
 
